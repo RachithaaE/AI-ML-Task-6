@@ -7,18 +7,22 @@ Understand and implement K-Nearest Neighbors algorithm for classification using 
 #  Steps Performed :
 . Data Loading 
    - Loaded iris.csv using Pandas from a local file path.
+     
 . Data Preprocessing
    - Split features (X) and target (y).
    - Encoded target labels to integers using factorize().
    - Normalized features using StandardScaler.
+     
 . Model Training
    - Used KNeighborsClassifier from Scikit-learn.
    - Tested different K values from 1 to 10.
    - Selected the best K based on test accuracy.
+     
 . Evaluation
    - Accuracy Score
    - Confusion Matrix
-   - Classification Report
+   - Classification Report.
+     
 . Visualization
    - Accuracy vs. K value graph
    - Decision boundary plot using first 2 features
